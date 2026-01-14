@@ -23,7 +23,7 @@ const menuItems = [
   { text: 'Master Gerbang', icon: <DoorSlidingIcon />, path: '/master-gerbang' },
 ]
 
-export default function Layout() {
+export default function AppLayout() {
   const location = useLocation()
 
   return (

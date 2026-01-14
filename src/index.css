@@ -1,12 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-@import 'tailwindcss';
+@import 'tailwindcss/preflight';
+@import 'tailwindcss/theme';
+@import 'tailwindcss/utilities';
 
-:root {
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
-}
-
-#root {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
+@import './styles/global.css';
