@@ -1,7 +1,6 @@
-# Frontend Test – Sistem Monitoring Lalu Lintas & Transaksi Tol
+# Frontend Test – Sistem Monitoring Gerbang Tol
 
-Frontend application untuk menampilkan **data operasional lalu lintas** dan **master data gerbang**.  
-Fokus aplikasi ini adalah **rekap & perhitungan volume transaksi**, bukan perhitungan pendapatan.
+Frontend application untuk menampilkan **data operasional lalu lintas gerbang tol** .  
 
 ---
 
@@ -10,8 +9,6 @@ Fokus aplikasi ini adalah **rekap & perhitungan volume transaksi**, bukan perhit
 - Dashboard operasional (KPI & visualisasi lalu lintas)
 - Laporan Lalu Lintas Harian (filter, search, pagination)
 - Master Data Gerbang (CRUD)
-- Konsisten menggunakan feature-based architecture
-- Siap integrasi backend
 
 ---
 
@@ -101,7 +98,6 @@ Aplikasi frontend hanya menggunakan endpoint yang tersedia tanpa memodifikasi ba
 
 ## 🖼️ Screenshots
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/057b7d66-245c-4199-98a8-a1ffa03d91a3" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dd2ef5cb-bc89-48c1-bc44-fead0cdd017f" />
 
-![Dashboard](./screenshots/dashboard.png)
-![Laporan Lalin](./screenshots/laporan-lalin.png)
-![Master Gerbang](./screenshots/master-gerbang.png)
