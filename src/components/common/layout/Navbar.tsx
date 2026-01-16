@@ -37,7 +37,7 @@ const DEFAULT_USER: UserInfo = {
   avatar: 'AC',
 }
 
-const DEFAULT_TITLE = 'Sistem Monitoring Lalu Lintas & Transaksi Tol'
+const DEFAULT_TITLE = 'Sistem Monitoring Gerbang Tol'
 
 export default function Navbar({
   onMenuClick,
@@ -109,7 +109,7 @@ export default function Navbar({
 
         {/* Right Section: Profile & Settings */}
         <div className="flex items-center">
-          {/* User Profile (Static) */}
+          {/* User Profile */}
           <div className="mr-0 flex items-center gap-3 rounded-lg px-2 py-1">
             <Avatar
               sx={{

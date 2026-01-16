@@ -49,7 +49,7 @@ export default function LoginPage() {
                 variant="body2"
                 sx={{ color: BRAND_COLORS.neutral500, fontWeight: 500 }}
               >
-                Sistem Monitoring Lalu Lintas & Transaksi Tol
+                Sistem Monitoring Gerbang Tol
               </Typography>
             </div>
 
