@@ -2,4 +2,29 @@
 @import 'tailwindcss/theme';
 @import 'tailwindcss/utilities';
 
-@import './styles/global.css';
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family:
+    Inter,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    sans-serif;
+  background-color: #f1f5f9;
+}
+
+@media (max-width: 640px) {
+  button,
+  [role='button'],
+  input[type='submit'],
+  input[type='button'] {
+    min-height: 44px;
+  }
+}
